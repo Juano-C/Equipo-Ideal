@@ -3,14 +3,7 @@
 Prototipo estático para portfolio inspirado en el proyecto académico original en Java: https://github.com/Juano-C/EquipoIdeal
 
 ## Ejecutar localmente
-
 Abrí `index.html` en un navegador moderno. La demo no necesita instalar dependencias ni compilar Java.
-
-## Publicar en GitHub Pages
-
-1. Creá un repositorio separado para la demo (por ejemplo, `equipoideal-demo`).
-2. Subí `index.html`, `styles.css`, `app.js` y la carpeta `assets/`.
-3. En **Settings → Pages**, elegí desplegar desde la rama `main` y la carpeta `/ (root)`.
 
 ## Alcance y fidelidad
 
@@ -20,13 +13,6 @@ Abrí `index.html` en un navegador moderno. La demo no necesita instalar depende
 - La heurística golosa está adaptada para respetar incompatibilidades; no es una traducción literal de la implementación Java original, que no verifica incompatibilidades durante la selección.
 - El conteo de iteraciones y las mediciones de tiempo pertenecen a esta demo web y no son directamente comparables con las métricas de Java.
 - La demo es una implementación independiente para navegador; no modifica ni reemplaza el proyecto Java original.
-
-## Próximas mejoras posibles
-
-- Añadir controles para editar incompatibilidades.
-- Mostrar el proceso de backtracking paso a paso.
-- Incorporar pruebas automáticas de equivalencia con casos del proyecto Java.
-- Añadir una vista con los datos y restricciones del problema.
 
 ## Validación independiente de algoritmos
 
